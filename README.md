@@ -7,7 +7,7 @@ Ok Nuxt is fun, but let's see what NextJs can do =)
 I'm basically pulling data from newsAPI.org. This project contains 2 pages.
 
 - The listing page that list all the news and the details news.
-- The detail page simply render the details of the news
+- The detail page that simply render the details of the news
 
 ## Getting started
 
