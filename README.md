@@ -12,7 +12,7 @@ I'm basically pulling data from newsAPI.org. This project contains 2 pages.
 This project depends on node >= 16 please make sure you have it installed on your system.
 
 ```bash
-git clone url-of-the-project
+git clone git@github.com:gmilon/next-playground.git
 cd next-playground
 yarn
 yarn dev
@@ -30,7 +30,7 @@ Simply run
 yarn test
 ```
 
-## Deploy it
+## Run the CI/CD pipeline
 
 You can easily deploy it on vercel.
 

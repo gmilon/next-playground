@@ -1,4 +1,5 @@
 import slugify from "slugify";
+// TODO pass this from the .env
 const ApiKey = "189bd960f9c44c258e1545b7dc2a3980";
 const BaseUrl = "https://newsapi.org/v2/top-headlines";
 const defaultCoutry = "fr";
