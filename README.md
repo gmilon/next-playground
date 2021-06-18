@@ -38,15 +38,11 @@ There are 3 steps in order to deploy this project.
 
 ### Step 1
 
-configure vercel and github actions.
+Using vercel CLI, create a new project and get the ORG_ID and PROJECT_ID and a SECRET_TOKEN
 
-#### Vercel
+Set those variable under github secrets in the project settings.
 
-TODO
-
-#### Github Actions
-
-TODO
+simply push on the branch main.
 
 ### Step 2
 
