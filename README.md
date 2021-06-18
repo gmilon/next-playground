@@ -1,5 +1,7 @@
 # Next.js Playground
 
+![workflow](https://github.com/gmilon/next-playground/actions/workflows/ci.yml/badge.svg)
+
 Ok Nuxt is fun, but let's see what NextJs can do =)
 
 I'm basically pulling data from newsAPI.org. This project contains 2 pages.
