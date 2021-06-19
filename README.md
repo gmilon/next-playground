@@ -1,6 +1,7 @@
 # Next.js Playground
 
 ![workflow](https://github.com/gmilon/next-playground/actions/workflows/ci.yml/badge.svg)
+![Vercel](https://vercelbadge.vercel.app/api/gmilon/next-playground)
 
 Ok Nuxt is fun, but let's see what NextJs can do =)
 
