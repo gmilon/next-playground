@@ -7,7 +7,7 @@ export default function Layout({ children }) {
     <div>
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6">Top news in France</Typography>
+          <Typography variant="h6">Top news in Germany</Typography>
         </Toolbar>
       </AppBar>
       <Container maxWidth="sm">
