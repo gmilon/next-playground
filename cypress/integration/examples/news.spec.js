@@ -6,7 +6,7 @@ context("News", () => {
   });
 
   it("Should show the page properly", () => {
-    cy.contains("Top news in France");
+    cy.contains("Top news in Germany");
   });
 
   it("Should show all the article rendered by the API", () => {
