@@ -1,22 +1,15 @@
 name: Docker Build
 description: Build docker image for Next.js
-inputs:
-  image:
-    required: false
-    description: "Docker Image Id"
-    default: "next-js"
 runs:
   using: composite
   steps:
-    - uses: actions/checkout@v2
-
     # In this step, this action saves a list of existing images,
     # the cache is created without them in the post run.
     # It also restores the cache if it exists.
-    - uses: satackey/action-docker-layer-caching@v0.0.11
+
 
     - name: Build the Docker image
-      run: docker build . --tag ${{image}}:$(date +%s)
+      run: docker build . --tag next-playground:$(date +%s)
       shell: bash
   # Finally, "Post Run satackey/action-docker-layer-caching@v0.0.11",
   # which is the process of saving the cache, will be executed.
