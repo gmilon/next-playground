@@ -1,0 +1,10 @@
+name: Build Test and deploy
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build Docker Image
+        uses: ./.github/actions/build
+        with:
+          image: next-playground
