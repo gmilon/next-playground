@@ -47,6 +47,7 @@ Using vercel CLI, create a new project and get the ORG_ID and PROJECT_ID and a S
 vercel
 ```
 
+
 You can get ORG_ID and PROJECT_ID in the .vercel/project.json
 for the secret token you must generate it from you dashboard
 
